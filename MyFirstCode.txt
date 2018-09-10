@@ -1,0 +1,661 @@
+<<<<<<< HEAD
+Last login: Mon Sep 10 13:48:27 on ttys000
+Padas-MacBook-Pro:~ padakanchanapinpong$ git diff master myNewFeature
+Padas-MacBook-Pro:~ padakanchanapinpong$ type MyFirstCode.txt
+-bash: type: MyFirstCode.txt: not found
+Padas-MacBook-Pro:~ padakanchanapinpong$ type MyFirstCode.txt
+-bash: type: MyFirstCode.txt: not found
+Padas-MacBook-Pro:~ padakanchanapinpong$ cat MyFirstCode.txt.
+cat: MyFirstCode.txt.: No such file or directory
+Padas-MacBook-Pro:~ padakanchanapinpong$ cat MyFirstCode.txt
+Last login: Mon Sep 10 13:44:31 on ttys000
+Padas-MacBook-Pro:~ padakanchanapinpong$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.CFUserTextEncoding
+	.DS_Store
+	.IdentityService/
+	.MyFirstCode.txt.swp
+	.ServiceHub/
+	.adobe/
+	.anaconda/
+	.android/
+	.atom/
+	.bash_history
+	.bash_profile
+	.bash_profile-anaconda3.bak
+	.bash_sessions/
+	.bitnami/
+	.conda/
+	.condarc
+	.config/
+	.cups/
+	.eclipse/
+	.gitconfig
+	.ipynb_checkpoints/
+	.ipython/
+	.jupyter/
+	.matplotlib/
+	.mono/
+	.oracle_jre_usage/
+	.p2/
+	.spyder-py3/
+	.templateengine/
+	.tooling/
+	.viminfo
+	.vscode/
+	Applications (Parallels)/
+	Applications/
+	Creative Cloud Files/
+	Desktop/
+	Document/
+	Documents/
+	Downloads/
+	Google Drive File Stream
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	Untitled.ipynb
+	eclipse-workspace/
+	eclipse/
+	lab03.ipynb
+
+nothing added to commit but untracked files present (use "git add" to track)
+Padas-MacBook-Pro:~ padakanchanapinpong$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.CFUserTextEncoding
+	.DS_Store
+	.IdentityService/
+	.MyFirstCode.txt.swp
+	.ServiceHub/
+	.adobe/
+	.anaconda/
+	.android/
+	.atom/
+	.bash_history
+	.bash_profile
+	.bash_profile-anaconda3.bak
+	.bash_sessions/
+	.bitnami/
+	.conda/
+	.condarc
+	.config/
+	.cups/
+	.eclipse/
+	.gitconfig
+	.ipynb_checkpoints/
+	.ipython/
+	.jupyter/
+	.matplotlib/
+	.mono/
+	.oracle_jre_usage/
+	.p2/
+	.spyder-py3/
+	.templateengine/
+	.tooling/
+	.viminfo
+	.vscode/
+	Applications (Parallels)/
+	Applications/
+	Creative Cloud Files/
+	Desktop/
+	Document/
+	Documents/
+	Downloads/
+	Google Drive File Stream
+	Library/
+	Movies/
+	Music/
+	MyFirstCode.txt
+	Pictures/
+	Public/
+	Untitled.ipynb
+	eclipse-workspace/
+	eclipse/
+	lab03.ipynb
+
+nothing added to commit but untracked files present (use "git add" to track)
+Padas-MacBook-Pro:~ padakanchanapinpong$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+Padas-MacBook-Pro:~ padakanchanapinpong$ git add MyFirstCode
+fatal: pathspec 'MyFirstCode' did not match any files
+Padas-MacBook-Pro:~ padakanchanapinpong$ git add MyFirstCode.txt
+Padas-MacBook-Pro:~ padakanchanapinpong$ git status
+On branch master
+=======
+Last login: Mon Sep 10 14:18:49 on ttys000
+Padas-MacBook-Pro:~ padakanchanapinpong$ get add MyFirstCode.txt
+-bash: get: command not found
+Padas-MacBook-Pro:~ padakanchanapinpong$ git add MyFirstCode.txt
+Padas-MacBook-Pro:~ padakanchanapinpong$ git commit -m "commit from master"
+[master 5214735] commit from master
+ 1 file changed, 632 insertions(+), 48 deletions(-)
+ rewrite MyFirstCode.txt (78%)
+Padas-MacBook-Pro:~ padakanchanapinpong$ git checkout myNewFeature
+Switched to branch 'myNewFeature'
+Padas-MacBook-Pro:~ padakanchanapinpong$ vi MyFirstCode.txt
+>>>>>>> myNewFeature
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   MyFirstCode.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.CFUserTextEncoding
+	.DS_Store
+	.IdentityService/
+	.MyFirstCode.txt.swp
+	.ServiceHub/
+	.adobe/
+	.anaconda/
+	.android/
+	.atom/
+	.bash_history
+	.bash_profile
+	.bash_profile-anaconda3.bak
+	.bash_sessions/
+	.bitnami/
+	.conda/
+	.condarc
+	.config/
+	.cups/
+	.eclipse/
+	.gitconfig
+	.ipynb_checkpoints/
+	.ipython/
+	.jupyter/
+	.matplotlib/
+	.mono/
+	.oracle_jre_usage/
+	.p2/
+	.spyder-py3/
+	.templateengine/
+	.tooling/
+	.viminfo
+	.vscode/
+	Applications (Parallels)/
+	Applications/
+	Creative Cloud Files/
+	Desktop/
+	Document/
+	Documents/
+	Downloads/
+	Google Drive File Stream
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	Untitled.ipynb
+	eclipse-workspace/
+	eclipse/
+	lab03.ipynb
+
+Padas-MacBook-Pro:~ padakanchanapinpong$ git commit -m ‘‘this is my first commit from 6088079’’
+error: pathspec 'is' did not match any file(s) known to git.
+error: pathspec 'my' did not match any file(s) known to git.
+error: pathspec 'first' did not match any file(s) known to git.
+error: pathspec 'commit' did not match any file(s) known to git.
+error: pathspec 'from' did not match any file(s) known to git.
+error: pathspec '6088079’’' did not match any file(s) known to git.
+Padas-MacBook-Pro:~ padakanchanapinpong$ git commit -m ‘‘this is my first commit from 6088079’’
+error: pathspec 'is' did not match any file(s) known to git.
+error: pathspec 'my' did not match any file(s) known to git.
+error: pathspec 'first' did not match any file(s) known to git.
+error: pathspec 'commit' did not match any file(s) known to git.
+error: pathspec 'from' did not match any file(s) known to git.
+error: pathspec '6088079’’' did not match any file(s) known to git.
+Padas-MacBook-Pro:~ padakanchanapinpong$ git commit -m ''this is my first commit from 6088079''
+error: pathspec 'is' did not match any file(s) known to git.
+error: pathspec 'my' did not match any file(s) known to git.
+error: pathspec 'first' did not match any file(s) known to git.
+error: pathspec 'commit' did not match any file(s) known to git.
+error: pathspec 'from' did not match any file(s) known to git.
+error: pathspec '6088079' did not match any file(s) known to git.
+Padas-MacBook-Pro:~ padakanchanapinpong$ git commit -m ‘‘this is my first commit from _6088079’’
+error: pathspec 'is' did not match any file(s) known to git.
+error: pathspec 'my' did not match any file(s) known to git.
+error: pathspec 'first' did not match any file(s) known to git.
+error: pathspec 'commit' did not match any file(s) known to git.
+error: pathspec 'from' did not match any file(s) known to git.
+error: pathspec '_6088079’’' did not match any file(s) known to git.
+Padas-MacBook-Pro:~ padakanchanapinpong$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   MyFirstCode.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.CFUserTextEncoding
+	.DS_Store
+	.IdentityService/
+	.MyFirstCode.txt.swp
+	.ServiceHub/
+	.adobe/
+	.anaconda/
+	.android/
+	.atom/
+	.bash_history
+	.bash_profile
+	.bash_profile-anaconda3.bak
+	.bash_sessions/
+	.bitnami/
+	.conda/
+	.condarc
+	.config/
+	.cups/
+	.eclipse/
+	.gitconfig
+	.ipynb_checkpoints/
+	.ipython/
+	.jupyter/
+	.matplotlib/
+	.mono/
+	.oracle_jre_usage/
+	.p2/
+	.spyder-py3/
+	.templateengine/
+	.tooling/
+	.viminfo
+	.vscode/
+	Applications (Parallels)/
+	Applications/
+	Creative Cloud Files/
+	Desktop/
+	Document/
+	Documents/
+	Downloads/
+	Google Drive File Stream
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	Untitled.ipynb
+	eclipse-workspace/
+	eclipse/
+	lab03.ipynb
+
+Padas-MacBook-Pro:~ padakanchanapinpong$  git commit -m ‘‘this is my first commit from <your student ID>’’
+-bash: your: No such file or directory
+Padas-MacBook-Pro:~ padakanchanapinpong$ git commit -m ‘‘this is my first commit from 6088079’’
+error: pathspec 'is' did not match any file(s) known to git.
+error: pathspec 'my' did not match any file(s) known to git.
+error: pathspec 'first' did not match any file(s) known to git.
+error: pathspec 'commit' did not match any file(s) known to git.
+error: pathspec 'from' did not match any file(s) known to git.
+error: pathspec '6088079’’' did not match any file(s) known to git.
+Padas-MacBook-Pro:~ padakanchanapinpong$ git commit -m "this is my first commit from 6088079"
+[master (root-commit) b36a9e4] this is my first commit from 6088079
+ 1 file changed, 48 insertions(+)
+ create mode 100644 MyFirstCode.txt
+Padas-MacBook-Pro:~ padakanchanapinpong$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+<<<<<<< HEAD
+	.CFUserTextEncoding
+	.DS_Store
+	.IdentityService/
+	.MyFirstCode.txt.swp
+	.ServiceHub/
+	.adobe/
+	.anaconda/
+	.android/
+	.atom/
+	.bash_history
+	.bash_profile
+	.bash_profile-anaconda3.bak
+	.bash_sessions/
+	.bitnami/
+	.conda/
+	.condarc
+	.config/
+	.cups/
+	.eclipse/
+	.gitconfig
+	.ipynb_checkpoints/
+	.ipython/
+	.jupyter/
+	.matplotlib/
+	.mono/
+	.oracle_jre_usage/
+	.p2/
+	.spyder-py3/
+	.templateengine/
+	.tooling/
+	.viminfo
+	.vscode/
+	Applications (Parallels)/
+	Applications/
+	Creative Cloud Files/
+	Desktop/
+	Document/
+	Documents/
+	Downloads/
+	Google Drive File Stream
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	Untitled.ipynb
+	eclipse-workspace/
+	eclipse/
+	lab03.ipynb
+
+nothing added to commit but untracked files present (use "git add" to track)
+Padas-MacBook-Pro:~ padakanchanapinpong$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   MyFirstCode.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.CFUserTextEncoding
+	.DS_Store
+	.IdentityService/
+	.MyFirstCode.txt.swp
+	.ServiceHub/
+	.adobe/
+	.anaconda/
+	.android/
+	.atom/
+	.bash_history
+	.bash_profile
+	.bash_profile-anaconda3.bak
+	.bash_sessions/
+	.bitnami/
+	.conda/
+	.condarc
+	.config/
+	.cups/
+	.eclipse/
+	.gitconfig
+	.ipynb_checkpoints/
+	.ipython/
+	.jupyter/
+	.matplotlib/
+	.mono/
+	.oracle_jre_usage/
+	.p2/
+	.spyder-py3/
+	.templateengine/
+	.tooling/
+	.viminfo
+	.vscode/
+	Applications (Parallels)/
+	Applications/
+	Creative Cloud Files/
+	Desktop/
+	Document/
+	Documents/
+	Downloads/
+	Google Drive File Stream
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	Untitled.ipynb
+	eclipse-workspace/
+	eclipse/
+	lab03.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Padas-MacBook-Pro:~ padakanchanapinpong$ git diff
+diff --git a/MyFirstCode.txt b/MyFirstCode.txt
+index 2e17a8a..694a6fc 100644
+--- a/MyFirstCode.txt
++++ b/MyFirstCode.txt
+@@ -23,6 +23,7 @@ Padas-MacBook-Pro:~ padakanchanapinpong$ vi MyFirstCode.txt
+ 
+ 
+ Hello 
++The faculty of Information and Communication Technology
+ ~                                                                               
+ ~                                                                               
+ ~                                                                               
+Padas-MacBook-Pro:~ padakanchanapinpong$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   MyFirstCode.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.CFUserTextEncoding
+	.DS_Store
+	.IdentityService/
+	.MyFirstCode.txt.swp
+	.ServiceHub/
+	.adobe/
+	.anaconda/
+	.android/
+	.atom/
+	.bash_history
+	.bash_profile
+	.bash_profile-anaconda3.bak
+	.bash_sessions/
+	.bitnami/
+	.conda/
+	.condarc
+	.config/
+	.cups/
+	.eclipse/
+	.gitconfig
+	.ipynb_checkpoints/
+	.ipython/
+	.jupyter/
+	.matplotlib/
+	.mono/
+	.oracle_jre_usage/
+	.p2/
+	.spyder-py3/
+	.templateengine/
+	.tooling/
+	.viminfo
+	.vscode/
+	Applications (Parallels)/
+	Applications/
+	Creative Cloud Files/
+	Desktop/
+	Document/
+	Documents/
+	Downloads/
+	Google Drive File Stream
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	Untitled.ipynb
+	eclipse-workspace/
+	eclipse/
+	lab03.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Padas-MacBook-Pro:~ padakanchanapinpong$ git log
+commit b36a9e4409dea1f2acb102ab5d3654d96a0c31aa (HEAD -> master)
+Author: padakan <pada.kan@student.mahidol.ac.th>
+Date:   Mon Sep 10 13:58:12 2018 +0700
+
+    this is my first commit from 6088079
+Padas-MacBook-Pro:~ padakanchanapinpong$  git checkout -b myNewFeature
+M	MyFirstCode.txt
+Switched to a new branch 'myNewFeature'
+Padas-MacBook-Pro:~ padakanchanapinpong$ git branch
+  master
+* myNewFeature
+Padas-MacBook-Pro:~ padakanchanapinpong$ git status
+On branch myNewFeature
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   MyFirstCode.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.CFUserTextEncoding
+	.DS_Store
+	.IdentityService/
+	.MyFirstCode.txt.swp
+	.ServiceHub/
+	.adobe/
+	.anaconda/
+	.android/
+	.atom/
+	.bash_history
+	.bash_profile
+	.bash_profile-anaconda3.bak
+	.bash_sessions/
+	.bitnami/
+	.conda/
+	.condarc
+	.config/
+	.cups/
+	.eclipse/
+	.gitconfig
+	.ipynb_checkpoints/
+	.ipython/
+	.jupyter/
+	.matplotlib/
+	.mono/
+	.oracle_jre_usage/
+	.p2/
+	.spyder-py3/
+	.templateengine/
+	.tooling/
+	.viminfo
+	.vscode/
+	Applications (Parallels)/
+	Applications/
+	Creative Cloud Files/
+	Desktop/
+	Document/
+	Documents/
+	Downloads/
+	Google Drive File Stream
+	Library/
+	Movies/
+	Music/
+	Pictures/
+	Public/
+	Untitled.ipynb
+	eclipse-workspace/
+	eclipse/
+	lab03.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Padas-MacBook-Pro:~ padakanchanapinpong$ vi MyfirstCode.txt
+
+~s                                                                               
+~ 
+~ 
+~ 
+~ 
+~ 
+~ 
+~ 
+~ 
+~ 
+~ 
+~ 
+~                                                                                
+~
+~ 
+~ 
+~
+~ 
+~ 
+~
+~
+--This is my new feature--
+
+Padas-MacBook-Pro:~ padakanchanapinpong$ git merge myNewFeature
+Already up-to-date.
+Padas-MacBook-Pro:~ padakanchanapinpong$ cat MyFirstCode.txt.
+cat: MyFirstCode.txt.: No such file or directory
+Padas-MacBook-Pro:~ padakanchanapinpong$ git log
+commit b36a9e4409dea1f2acb102ab5d3654d96a0c31aa (HEAD -> myNewFeature, master)
+Author: padakan <pada.kan@student.mahidol.ac.th>
+Date:   Mon Sep 10 13:58:12 2018 +0700
+
+    this is my first commit from 6088079
+Padas-MacBook-Pro:~ padakanchanapinpong$ git checkout master
+M	MyFirstCode.txt
+Switched to branch 'master'
+Padas-MacBook-Pro:~ padakanchanapinpong$ vi MyFirstCode.txt
+
+=======
+~
+~
+~
+~
+>>>>>>> myNewFeature
+~
+~
+~
+~
+~
+~
+~
+~
+~
+<<<<<<< HEAD
+~                                                                                
+=======
+>>>>>>> myNewFeature
+~
+~
+~
+~
+~
+~
+~
+~
+<<<<<<< HEAD
+--This is my new feature--
+add from the master
+~                                                                               
+~                                                                               
+=======
+~
+add form the myNewFeature- INSERT --
+>>>>>>> myNewFeature
+-- INSERT --
